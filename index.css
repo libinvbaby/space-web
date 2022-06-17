@@ -305,7 +305,7 @@ a.nav-link.active{
 @media screen and (max-width:390px){
     .second-col-head {
         position: relative;
-        left: 18%;
+        left: 16%;
     }
     .navbar-line{
         display: block;
