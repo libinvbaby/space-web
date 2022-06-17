@@ -294,12 +294,15 @@ a.nav-link.active{
         text-align: center;
         font-size:20px;
     }
+    .home-heads{
+        height: 100%;
+    }
     
 }
-@media screen and (max-width:384px){
+@media screen and (max-width:390px){
     .second-col-head {
         position: relative;
-        left: 10%;
+        left: 18%;
     }
     
 }
