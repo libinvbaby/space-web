@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+   font-family: 'Bellefair', serif;
+   font-size: 150px;
+   color:#fff
+}
+h2{
+    font-family: 'Bellefair', serif;
+    font-size:100px;
+    color:#fff
+
+}
+h3{
+    font-family: 'Bellefair', serif;
+    font-size:56px;
+    color:#fff
+
+}
+h4{
+    font-family: 'Bellefair', serif;
+    font-size:32px;
+    color:#fff
+
+}
+h5{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:28px;
+    word-spacing: 4.75;
+    color:#fff
+
+}
+h6{
+    font-family: 'Bellefair', serif;
+    font-size:32px;
+    word-spacing: 4.75;
+    color:#fff
+
+}
+p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+
+}
+
+.home-heads{
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-size: cover;
+}
+.nav-link{
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+.nav-item{
+    padding:0px 50px;
+}
+.collapse{
+    height: 96px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+}
+.navbar-line{
+    width: 473px;
+    height: 1px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+
+}
+
+.subheading{
+    padding-top:150px;
+}
+.under-heading{
+    padding:0 100px;
+    text-align:justify;
+}
+.second-col{
+position: relative;
+}
+
+a.nav-link.active{
+    color: #fff;
+    
+    
+}
+.second-col-head{
+    position: absolute;
+    bottom:0px;
+    width:200px;
+    height:200px;
+    left:40%;
+    padding-top:80px;
+    text-align:justify;
+    background-color: #fff;
+    color: #000;
+    border-radius: 80%;
+}
+
+.destination{
+    background: url(./assets/destination/background-destination-desktop.jpg);
+}
+.destnav{
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    display: inline-block;
+    padding:0px 30px;
+}
+.destiCon{
+    padding-top: 50px;
+}
+.destHead{
+    text-align: center;
+}
+.destPara{
+    text-align: center;
+}
+.avgDistance{
+    text-align: center;
+}
+.estTime{
+    text-align: center;
+}
+#name{
+    font-size:56px;
+}
+.crewbody{
+    background: url(./assets/crew/background-crew-desktop.jpg);
+}
+.crewnav{
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+    display: inline-block;
+    padding:0px 10px;
+}
+
+span{
+    font-family: 'Barlow Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 4.725px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.25;
+}
+.technology{
+    background: url(./assets/technology/background-technology-desktop.jpg);
+}
+.tech{
+    margin-top:40px;
+    text-align: center;
+    color:#fff;
+    list-style: none;
+    font-family: 'Bellefair', serif;
+    font-size:32px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    }
+#techimg{
+    float: right;
+}
+#postion{
+    opacity: 0.5;
+}
+a.nav-link:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+a.nav-link.active{
+    border-bottom: 1px solid #fff;
+}
+@media screen and (max-width:991px){
+    .tech{
+        display: inline-block;
+        padding:20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    #name{
+        font-size:40px;
+        text-align: center;
+    }
+    .desctech{
+        text-align: center;
+    }
+    .subheadtech{
+        text-align: center;
+    }
+    .list{
+        text-align: center;
+    }
+    .imagetech{
+        text-align: center;
+    }
+    #techimg{
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .navBar{
+        text-align: center;
+    }
+    #postion,#name,#desc{
+        text-align: center;
+    }
+    #crewimg{
+        text-align: center;
+        width:100%
+    }
+    #planetimg{
+        text-align: center;
+        width:100%
+    }
+    .collapse{
+        height: 160px;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+    }
+    .subheading{
+        font-size:20px;
+    }
+    .homeHead{
+        font-size:80px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home-heads{
+        background-image: url(./assets/home/background-home-mobile.jpg);
+    }
+    .subheading{
+        padding-top:30px;
+    }
+    .under-heading{
+        padding:0 10px;
+        
+    }
+    .second-col-head{
+        position: relative;
+        left: 28%;
+    }
+    #destHead{
+        font-size:70px;
+
+    }
+    .destnav{
+        padding:10px 7px;
+    }
+    #techimg{
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .tech{
+        display: inline-block;
+        padding:20px;
+        text-align: center;
+        font-size: 20px;
+    }
+    #name{
+        font-size:40px;
+        text-align: center;
+    }
+    .desctech{
+        text-align: center;
+    }
+    .subheadtech{
+        text-align: center;
+    }
+    .list{
+        text-align: center;
+    }
+    .imagetech{
+        text-align: center;
+    }
+    .navBar{
+        text-align: center;
+    }
+    #postion,#name,#desc{
+        text-align: center;
+    }
+    #crewimg{
+        text-align: center;
+        width:100%
+    }
+    .subhead{
+        text-align: center;
+        font-size:20px;
+    }
+    
+}
+@media screen and (max-width:384px){
+    .second-col-head {
+        position: relative;
+        left: 10%;
+    }
+    
+}
