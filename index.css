@@ -248,6 +248,7 @@ a.nav-link.active{
     .second-col-head{
         position: relative;
         left: 28%;
+        top:50px;
     }
     #destHead{
         font-size:70px;
