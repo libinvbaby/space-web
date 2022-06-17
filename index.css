@@ -228,6 +228,9 @@ a.nav-link.active{
     .homeHead{
         font-size:80px;
     }
+    .navbar-line{
+        display: none;
+    }
 }
 
 
@@ -303,6 +306,9 @@ a.nav-link.active{
     .second-col-head {
         position: relative;
         left: 18%;
+    }
+    .navbar-line{
+        display: block;
     }
     
 }
